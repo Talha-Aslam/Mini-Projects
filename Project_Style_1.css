@@ -97,6 +97,7 @@ body{
 }
 
 .media-button .link:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
     transform: scale(1.2);
 }
 .Profile-card .buttons{
@@ -112,7 +113,6 @@ body{
     color: whitesmoke;
     font-size: 15px;
     background-color: rgba(0, 0, 0, 0.761);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
     border: none;
     cursor: pointer;
     transition: all  0.2s ease-in-out;
@@ -121,6 +121,7 @@ body{
 
 .buttons .button:hover{
     background-color: aliceblue;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
     color: rgb(86, 173, 147);
     opacity: 1;
     transform: scale(1.2);
